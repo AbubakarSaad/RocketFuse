@@ -1,0 +1,115 @@
+html {
+	overflow-y: visible;
+}
+
+body {
+	font: 13px/24px "Open Sans", Helvetica, Arial, sans-serif;
+	background-color: #1a1a1a;
+	background-image: url(../img/spatters.png);
+	background-repeat: no-repeat;
+	background-position: 50% 0;
+}
+
+hr {
+	border-color: #434343;
+}
+
+nav {
+	position: relative;
+	height: 80px;
+	z-index: 51;
+}
+
+nav ul {
+	position: absolute;
+	right: 0;
+	top: 40px;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+nav ul li {
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 15px;
+	padding: 10px 20px;
+	background-color: #000;
+	margin-right: 1px;
+	opacity: 0.5;
+}
+
+nav ul li a:hover{
+	text-decoration: none;
+	color: #fff;
+	border-bottom: 5px solid #cc2a41;
+}
+
+.logo  {
+	margin-top: 220px;
+}
+
+	.hr1 {
+		margin-top: 84px;
+	}
+
+	.mid-section {
+		padding: 20px 20px;
+		line-height: 40px;
+	}
+
+	.mid-section p {
+		color: #c8c8c8;
+		font-size: 40px;
+
+	}
+
+	.mid-section p span {
+		font-weight: bold;
+	}
+
+	.hr2 {
+		margin-top: 100px;
+	}
+
+	.testimonials {
+		margin-top: 35px;
+	}
+
+	.testimonials p {
+		font-size: 20px;
+		color: #787878;
+	}
+
+@media (max-width: 675px){
+
+	.logo img {
+		width: 100%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
