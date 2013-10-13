@@ -47,15 +47,13 @@ nav ul li a:hover{
 	border-bottom: 5px solid #cc2a41;
 }
 
-.logo {
-	padding: 3% 0;
-
-}
 	
-	.wrapper {
-		position: absolute;
-		padding: 7% 0;
-	}
+.wrapper {
+	height: 430px;
+	position: absolute;
+	top: 50%;
+	margin-top: -150px;
+}
 
 	.hr1{
 		top: 30px;
