@@ -1,47 +1,77 @@
-html {
+html{
 	overflow: hidden;
 }
 
-body {
-	line-height: 1;
-	color: #555555;
-	-webkit-font-smoothing: antialiased;
-	-webkit-text-size-adjust: 100%;
+body{
 	overflow-x: hidden;
 	overflow-y: scroll;
 }
 
-section {
-	width: 100%;
+section{
 	height: 100%;
+	width: 100%;
 	position: absolute;
-	z-index: 50;
+	z-index: -1;
+	padding-top: 50px;
+	padding-bottom: 50px;
 	overflow: auto;
 	-webkit-overflow-scrolling: touch;
 }
 
-section .container {
-	padding-top: 50px;	
-}
-
-section > .container {
-	padding-bottom: 80px;
-}
-
-@media (max-width: 767px) {
-
+@media(max-width: 767px){
 	html{
-		overflow-x:hidden;	
-		overflow:visible;
+		overflow-x: hidden;
+		overflow: visible;
 	}
-
 	section{
 		position: static;
 		display: block;
+		padding-top: 50px;
 	}
-
-	section > .container {
-		padding-bottom: 0px;
-	}
-
 }
+
+/********************************/
+/* Navigation styles (non-important) */
+/********************************/
+/*
+nav{
+	position: fixed;
+	width: 100%;
+	height: 40px;
+	z-index: 9999;
+	background-color: #1a1a1a;
+	opacity: 0.5;
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0;
+	margin:0;
+}
+
+nav ul li {
+	float: right;
+}
+
+nav ul li a {
+	padding-left: 20px;
+	line-height: 40px;
+	text-decoration: none;
+	color: #fff;
+}
+
+/*******************************************/
+/* Slidable section styles (non-important) */
+/*******************************************/ 
+/*
+section#home{
+	background-color: red;
+}
+
+section#ebook{
+	background-color: green;
+}
+
+section#services {
+	background-color: orange;
+} */

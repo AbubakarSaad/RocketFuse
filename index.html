@@ -3,9 +3,7 @@
 <head>
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-	<title></title>
+	<title>RocketFuse</title>
 
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/hscroll.css">
@@ -16,59 +14,62 @@
 	<script type="text/javascript" src="js/scroll.js"></script>
 </head>
 <body>
-
-	<div class="container">
-			<nav class="menu-nav">
-				<ul>
-					<li class="page-1"><a href="#">home</a></li>
-					<li class="page-2"><a href="#">work</a></li>
-					<li><a href="#">about</a></li>
-					<li><a href="#">contact</a></li>					
-				</ul>
-			</nav>
-	</div> 
-
-	<section>
+	
+	<nav>
 		<div class="container">
-			<div class="row logo">
-				<div class="wrapper">
+			<ul>
+				<li><a href="#">contact</a></li>
+				<li><a href="#">about</a></li>
+				<li class="page-2"><a href="#work">work</a></li>
+				<li class="page-1"><a href="#home">home</a></li>				
+			</ul>
+		</div> 
+	</nav>
+
+
+	<a  id="home" ></a>
+	<section id="home">
+		<div class="container">
+			<div class="row">
+				<div class="logo">
 					<div class="col-md-12 text-center">
 						<img src="img/logofull.png">
 					</div>
-
-					<div class="col-md-12 mid-section"> 
-						<div class="col-md-12"><hr class="fancy-hr"></div>
-
-						<div class="col-md-6">
-							<p><b>Simplicity</b> is the ultimate form of sophistication</p>
+				</div>
+				
+				<div class="wrapper">
+					<div class="row mid-section"> 
+						<div class="row">
+							<div class="col-md-12"><hr class="fancy-hr"></div>
+						</div>
+						<div class="row">
+							<div class="col-md-6">
+								<p><b>Simplicity</b> is the ultimate form of sophistication</p>
+							</div>
+							<div class="col-md-6">
+								<a class="button1" href="#">GET <b>STARTED</b></a>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12"><hr class="fancy-hr"></div>
 						</div>
 
-						<div class="col-md-6">
-							<a class="button1" href="#">GET <b>STARTED</b></a> <!-- change the image and put the flat button in -->
-						</div>
-
-						<div class="col-md-12"><hr class="fancy-hr"></div>	
-					</div>
-
-					
-
-
-					<div class="col-md-12 testimonials">
-						<div class="col-md-6">
-							<p>"They know excalty how to an idea make it into something beautiful" - <b><i>Mark Evans</i></b></p>
-						</div> 	
-
-						<div class="col-md-6">
-							<p>"Excellect bunch of guys, they know their stuff" - <b><i>Scott Pielsticker</i></b></p>
+						<div class="col-md-12 testimonials">
+							<div class="col-md-6">
+								<p>"They know excalty how to an idea make it into something beautiful" - <b><i>Mark Evans</i></b></p>
+							</div> 	
+							<div class="col-md-6">
+								<p>"Excellect bunch of guys, they know their stuff" - <b><i>Scott Pielsticker</i></b></p>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-
 		</div>				
 	</section>
 
-	<section>
+	<a id="work"></a>
+	<section id="work">
 		<a name="page-2"></a>
 		<div class="container">
 			<div class="span12">
@@ -94,10 +95,6 @@
 			</div>
 			<div class="span12"><hr class="fancy-hr"></div>	
 		</div>				
-	</section>
-
-
-
-	
+	</section>	
 </body>
 </html>
